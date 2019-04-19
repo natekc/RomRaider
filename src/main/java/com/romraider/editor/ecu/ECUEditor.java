@@ -86,7 +86,7 @@ import com.romraider.swing.TableToolBar;
 import com.romraider.util.SettingsManager;
 import com.romraider.xml.DOMRomUnmarshaller;
 import com.romraider.xml.RomNotFoundException;
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import org.apache.xerces.parsers.DOMParser;
 
 public class ECUEditor extends AbstractFrame {
     private static final long serialVersionUID = -7826850987392016292L;

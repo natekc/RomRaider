@@ -31,9 +31,10 @@ import javax.imageio.metadata.IIOMetadataNode;
 import com.romraider.Settings;
 import com.romraider.logger.external.phidget.interfacekit.io.IntfKitSensor;
 import com.romraider.swing.JProgressPane;
-import com.sun.org.apache.xml.internal.serialize.OutputFormat;
-import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
+import org.apache.xml.serialize.OutputFormat;
+import org.apache.xml.serialize.XMLSerializer;
 
+@SuppressWarnings("deprecation")
 public final class DOMSettingsBuilder {
 
     public void buildSettings(Settings settings, File output, JProgressPane progress, String versionNumber) throws IOException {

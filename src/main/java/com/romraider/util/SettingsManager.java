@@ -34,7 +34,7 @@ import com.romraider.Settings;
 import com.romraider.swing.JProgressPane;
 import com.romraider.xml.DOMSettingsBuilder;
 import com.romraider.xml.DOMSettingsUnmarshaller;
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
+import org.apache.xerces.parsers.DOMParser;
 
 public class SettingsManager {
     private static final String SETTINGS_FILE = "/settings.xml";

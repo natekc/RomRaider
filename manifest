@@ -27,4 +27,5 @@ Class-Path:
  lib/cmutimelex.jar
  lib/en_us.jar
  lib/freetts.jar
+ lib/xercesImpl-2.9.0.jar
 X-COMMENT: Main-Class will be added automatically by build
